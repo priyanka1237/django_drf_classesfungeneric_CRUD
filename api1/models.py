@@ -19,7 +19,7 @@ class OtherUserDetails(models.Model):
     onOffNotification = models.IntegerField(default=1)
     
     class Meta:
-        db_table = 'otheruserdetails'
+        db_table = 'otheruserdetails1'
         
 class Item(models.Model):
     id = models.BigAutoField(primary_key=True)
@@ -29,5 +29,5 @@ class Item(models.Model):
     status = models.IntegerField(default=1)
     
     class Meta:
-        db_table = 'item'
+        db_table = 'item1'
 # Create your models here.
